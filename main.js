@@ -1,8 +1,5 @@
 const locationIn = document.getElementById("locationName");
 
-
-apik = "eb723a7c39b8022902ad77878321056b";
-
 function conversion(val) {
   return Math.floor(val - 273);
 }
