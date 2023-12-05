@@ -1,0 +1,33 @@
+{
+  "coord": { "lon": 7.0833, "lat": 51.1833 },
+  "weather": [
+    { "id": 500, "main": "Rain", "description": "light rain", "icon": "10d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 278.79,
+    "feels_like": 275.73,
+    "temp_min": 277.62,
+    "temp_max": 279.94,
+    "pressure": 1003,
+    "humidity": 97,
+    "sea_level": 1003,
+    "grnd_level": 975
+  },
+  "visibility": 6109,
+  "wind": { "speed": 4.12, "deg": 176, "gust": 9.27 },
+  "rain": { "1h": 0.41 },
+  "clouds": { "all": 100 },
+  "dt": 1701773777,
+  "sys": {
+    "type": 2,
+    "id": 2046493,
+    "country": "DE",
+    "sunrise": 1701760706,
+    "sunset": 1701789968
+  },
+  "timezone": 3600,
+  "id": 2831580,
+  "name": "Solingen",
+  "cod": 200
+}

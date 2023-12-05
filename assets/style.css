@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Light.ttf);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(pictures/25501.jpg);
+  background-position: center;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-family: "Roboto";
+}
+
+#container {
+  height: 800px;
+  width: 480px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  top: 5%;
+  position: absolute;
+  background-image: url(pictures/night.jpg);
+  background-position: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search-box {
+  padding: 2rem;
+}
+
+.form__label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.form__input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.form__input:-moz-placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem);
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem);
+}
+
+#search-box button {
+  position: flex;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 0 0.2rem 0 0;
+}
+
+#location {
+  font-family: "Roboto";
+  color: white;
+  font-size: 200%;
+}
+
+#temp {
+  font-family: "Roboto";
+  color: white;
+  font-size: 300%;
+}
+
+#sky {
+  font-family: "Roboto";
+  color: white;
+  font-size: 100%;
+}/*# sourceMappingURL=style.css.map */
